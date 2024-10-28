@@ -1,0 +1,6 @@
+name: Post wwelcome commit
+on:
+  pull request:
+    types: [opened]
+  permissions:
+    pull requests: write
